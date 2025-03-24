@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; text-align: center; }
+.container { max-width: 800px; margin: auto; }
+.user-list { display: flex; flex-wrap: wrap; justify-content: center; }
+.user-card { border: 1px solid #ddd; padding: 10px; margin: 10px; border-radius: 5px; width: 200px; }
+.loader { display: none; font-size: 20px; }

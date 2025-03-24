@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список пользователей</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Пользователи</h1>
+        <select id="sortOptions">
+            <option value="name">Имя</option>
+            <option value="age">Возраст</option>
+        </select>
+        <input type="text" id="search" placeholder="Поиск по имени или фамилии">
+        <div class="loader">Загрузка...</div>
+        <div class="user-list" id="userList"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
